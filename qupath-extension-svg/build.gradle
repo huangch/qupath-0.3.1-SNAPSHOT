@@ -1,0 +1,12 @@
+plugins {
+  id 'qupath.extension-conventions'
+  id 'java-library'
+}
+
+ext.moduleName = 'qupath.extension.svg'
+archivesBaseName = 'qupath-extension-svg'
+description = "QuPath extension to write SVG images using JFreeSVG."
+
+dependencies {
+  implementation "org.jfree:org.jfree.svg:5.0"
+}

@@ -1,0 +1,25 @@
+gradle.ext.qupathVersion = "0.3.1-SNAPSHOT"
+
+rootProject.name = 'qupath'
+
+// Main application
+include 'qupath-app'
+
+// Core modules
+include 'qupath-core'
+include 'qupath-core-processing'
+include 'qupath-gui-fx'
+
+// Core extension
+include 'qupath-extension-processing'
+
+// Extra extensions
+include 'qupath-extension-svg'
+include 'qupath-extension-script-editor'
+include 'qupath-extension-openslide'
+include 'qupath-extension-bioformats'
+
+// Developing extensions
+
+include 'qupath-extension-stardist'
+include 'qupath-extension-sptx'

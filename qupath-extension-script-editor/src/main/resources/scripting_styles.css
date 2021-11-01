@@ -1,0 +1,37 @@
+.text {
+	-fx-fill: -fx-text-inner-color;
+}
+.lineno {
+	-fx-background-color: -fx-background;
+}
+.keyword {
+    -fx-fill: darkorange;
+    -fx-font-weight: bold;
+}
+.method {
+    -fx-font-weight: bold;
+}
+.paren {
+    -fx-font-weight: bold;
+}
+.bracket {
+    -fx-font-weight: bold;
+}
+.brace {
+    -fx-font-weight: bold;
+}
+.string {
+    -fx-fill: seagreen;
+}
+.comment {
+    -fx-fill: rgb(128, 128, 128);
+}
+.error {
+    -fx-fill: red;
+}
+.warning {
+    -fx-fill: orange;
+}
+.semicolon {
+    -fx-font-weight: bold;
+}

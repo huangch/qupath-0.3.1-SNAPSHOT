@@ -1,0 +1,12 @@
+ext.moduleName = 'qupath.extension.aperio_annotation_importer'
+
+description = 'qupath-extension-aperio_annotation_importer'
+
+configurations {
+	// implementation.extendsFrom weka
+	implementation.extendsFrom controlsfx
+}
+
+dependencies {
+  // implementation project(':qupath-extension-processing')
+}

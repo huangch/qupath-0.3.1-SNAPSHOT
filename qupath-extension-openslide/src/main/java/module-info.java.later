@@ -1,0 +1,11 @@
+module qupath.openslide {
+	
+	requires java.desktop;
+	
+    requires qupath.core;
+
+    requires slf4j.api;
+    requires com.google.gson;
+	requires openslide;
+
+}

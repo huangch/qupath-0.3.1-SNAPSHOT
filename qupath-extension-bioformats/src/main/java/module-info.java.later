@@ -1,0 +1,21 @@
+module qupath.extension.bioformats {
+	
+	requires java.base;
+	
+	requires javafx.controls;
+	requires javafx.swing;
+	
+	requires qupath.core;
+    requires qupath.gui.fx;
+    
+//    requires formats.gpl;
+
+    requires slf4j.api;
+    
+    provides qupath.lib.images.servers.ImageServerBuilder with
+    	qupath.lib.images.servers.bioformats.BioFormatsServerBuilder;
+    
+    provides qupath.lib.images.writers.ImageWriter with
+    	qupath.lib.images.writers.ome.OMETiffWriter;
+	
+}
